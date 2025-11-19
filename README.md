@@ -1,5 +1,6 @@
 # Pour demarrer app
 docker compose up --build -d
+docker compose up --no-cache (sans cache)
 
 # Pour voir si les conteneurs ont bien demarrés
 docker compose ps
