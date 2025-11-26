@@ -1,5 +1,5 @@
 # Pour demarrer app
-docker compose up --build -d
+docker compose up --build -d &&
 docker compose up --no-cache (sans cache)
 
 # Pour voir si les conteneurs ont bien demarrés
@@ -9,7 +9,7 @@ docker compose ps
 http://localhost/
 
 # Arreter ou demarrer un serveur 
-docker compose stop web1
+docker compose stop web1 &&
 docker compose start web1
 
 # Voir les logs
